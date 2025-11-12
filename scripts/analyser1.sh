@@ -1,4 +1,5 @@
 #!/bin/bash
+
 for i in $(ls$1)
 do
     for j in $(cut $1$i)
