@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 if [ -z "$1" ]; then
     echo "Использование: $0 .."
     exit 1
@@ -13,3 +13,4 @@ DIR="$1"
         done < "$file"
     fi
 done
+ 
